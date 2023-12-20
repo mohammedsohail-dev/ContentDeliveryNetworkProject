@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streaming Example</title>
+</head>
+<body>
+
+<h1>Video Streaming Example</h1>
+
+<label for="videoFileName">Enter Video File Name:</label>
+<input type="text" id="videoFileName" required>
+<button onclick="watchVideo()">Watch Video</button>
+
+
+<video width="1920" height="1080" controls id="videoPlayer">
+    Your browser does not support the video tag.
+</video>
+
+<script>
+function watchVideo() {
+    var videoFileName = document.getElementById("videoFileName").value;
+    var videoPlayer = document.getElementById("videoPlayer");
+    videoPlayer.src = "https://localhost:8086/api/videos/" + videoFileName +".mp4";
+}
+</script>
+
+</body>
+</html>
+
