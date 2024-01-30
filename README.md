@@ -1,1 +1,1 @@
-Implementation of a content Delivery Network using spring boot, Network consists of Origin server, Replica servers and a controller guiding the reuests using GET and POST request
+Deployment of a Content Delivery Network (CDN) using Spring Boot for REST API infrastructure, employing HTTP/2 protocol with enhanced security features. The project showcases a novel CDN architecture with randomized surrogate server selection and a user-friendly interface for demonstration.
