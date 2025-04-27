@@ -32,10 +32,12 @@ Origin Server (Redirecter)
     └── Edge Server 5
 ```
 
-# How to run
+## How to run
 To run this project one must add all the maven projects, build them and run each and open the html file in repository to view the result
-mvn spring-boot: run 
 
+```
+mvn spring-boot: run 
+```
 on all servers
 
 
