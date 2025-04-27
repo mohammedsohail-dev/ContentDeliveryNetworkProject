@@ -21,14 +21,16 @@ Deployment of a Content Delivery Network (CDN) using Spring Boot for REST API in
 
 ## System Architecture
 
-Client test2.html
-|
+```plaintext
+Client (test2.html)
+    |
 Origin Server (Redirecter)
-├── Edge Server 1
-├── Edge Server 2
-├── Edge Server 3
-├── Edge Server 4
-└── Edge Server 5
+    ├── Edge Server 1
+    ├── Edge Server 2
+    ├── Edge Server 3
+    ├── Edge Server 4
+    └── Edge Server 5
+```
 
 # How to run
 To run this project one must add all the maven projects, build them and run each and open the html file in repository to view the result
